@@ -1,0 +1,88 @@
+.login_user_format {
+		font-scfamily: "Lato";
+		font-size: 24px;
+		font-weight: bold;
+	}
+	.restart_note{
+		font-family: "Lato";
+		font-size: 16px;
+		text-align:left;	
+		padding:5px;
+		border-top:1px solid #aaa;
+		font-weight:bold;
+	}
+	.restart_note .ui-btn{
+		border-radius: 8px;
+		box-shadow: 0 0 10px #bbb;
+		border:1px solid #aaa;
+		margin: 0;
+		padding: 5px;
+	}
+	#log{
+		font-family: "Lato";
+		font-size: 24px;
+		font-weight: bold;
+	}
+	.text-center{
+		text-align:center !important;	
+	}
+	.text-center img{
+		vertical-align: middle;
+	}
+	.message-error{
+		background: #ea4335 none repeat scroll 0 0 !important;
+		border: 1px solid #ea4335 !important;
+		color: #fff !important;
+		text-shadow:none !important;
+	}
+	.message-success{
+		background: #34a853 none repeat scroll 0 0 !important;
+		border: 1px solid #34a853 !important;
+		color: #fff !important;
+		text-shadow:none !important;
+	}
+	.message img{
+		width: 20px;
+		vertical-align: middle;
+	}
+	.message {
+		margin-top:5px !important;
+		text-align: center;
+		color:#fff;
+	}	
+	.message_deactivate {
+		text-align: justify;
+	}
+	.message, .message_deactivate {
+		background:#dddddd;
+		border:1px solid #ccc;
+		border-radius: 5px;
+		color: #333;
+		font-size: 12px;
+		margin: 0;
+		padding: 3px;
+		text-shadow: none;
+		display:none;
+	}
+	#qr_load, #qr_success, #qr_failed{
+		
+	}
+	.message-small{
+		font-size:12px;
+	}
+	.no_job, .searching_job{
+		opacity:0.75;
+	}
+	
+	.searching_job, .total_job, .no_job, .jobs{
+		display:none;
+	}
+	
+	.ui-li-count{
+		top: 20px;
+		font-weight: normal;
+		right: 10px !important;
+	}
+	.parcel_details{
+		padding: 10px;
+	}

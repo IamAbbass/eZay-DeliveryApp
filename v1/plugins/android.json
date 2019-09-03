@@ -1,0 +1,22 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.qr"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "PACKAGE_NAME": "com.example.qr"
+    },
+    "cordova-plugin-app-name": {
+      "APP_NAME": "Shopmm QR Scanner",
+      "PACKAGE_NAME": "com.example.qr"
+    }
+  },
+  "dependent_plugins": {}
+}

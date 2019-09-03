@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Mobile App Development\\ezay_order_tracking\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zohaib Files\\Application\\ezay_order_tracking\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5841413d7668e6d94ad4677aac6b13ef\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Mobile App Development\\ezay_order_tracking V. 6\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zed Developers\\Mobile App Development\\ezay_order_tracking V. 6\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zohaib Files\\Application\\ezay_order_tracking V. 5\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5841413d7668e6d94ad4677aac6b13ef\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

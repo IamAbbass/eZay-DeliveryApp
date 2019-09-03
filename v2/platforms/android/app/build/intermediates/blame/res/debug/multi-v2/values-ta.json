@@ -1,0 +1,304 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Mobile App Development\\ezay_order_tracking\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zed Developers\\Mobile App Development\\ezay_order_tracking V. 6\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\23568cd6881aa119f3dc4126628f63a2\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,348,532,657,761,972,1098,1237,1363,1605,1710,1894,2027,2240,2422,2510,2599",
+                        "endColumns": "102,183,124,103,210,125,138,125,241,104,183,132,212,181,87,88,105",
+                        "endOffsets": "347,531,656,760,971,1097,1236,1362,1604,1709,1893,2026,2239,2421,2509,2598,2704"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,396,525,633,844,974,1117,1472,1714,1823,2007,2144,2357,2543,2635,2728",
+                        "endColumns": "106,183,128,107,210,129,142,129,241,108,183,136,212,185,91,92,109",
+                        "endOffsets": "207,391,520,628,839,969,1112,1242,1709,1818,2002,2139,2352,2538,2630,2723,2833"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2943",
+                        "endColumns": "100",
+                        "endOffsets": "3039"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\b84203ca9a2c5b4aac42e6974a503816\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "224",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1247",
+                        "endColumns": "224",
+                        "endOffsets": "1467"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-tagmanager-16.0.4.aar\\7243fc557e84527999430487cb13573b\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "208,302,437",
+                        "endColumns": "93,134,100",
+                        "endOffsets": "301,436,537"
+                    },
+                    "to": {
+                        "startLines": "22,23,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3044,3142,3281",
+                        "endColumns": "97,138,104",
+                        "endOffsets": "3137,3276,3381"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.3.3.aar\\e466a8ca275f76c3276d980e837c5411\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2838",
+                        "endColumns": "104",
+                        "endOffsets": "2938"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zohaib Files\\Application\\ezay_order_tracking\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5841413d7668e6d94ad4677aac6b13ef\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Mobile App Development\\ezay_order_tracking V. 6\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.0.0.aar\\0a773ec6b3753611cf3ce8b4ec825a09\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2838",
+                        "endColumns": "104",
+                        "endOffsets": "2938"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-tagmanager-16.0.0.aar\\05dc5b72cd82fc0642f59b77cdd38c5a\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "208,302,437",
+                        "endColumns": "93,134,100",
+                        "endOffsets": "301,436,537"
+                    },
+                    "to": {
+                        "startLines": "22,23,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3044,3142,3281",
+                        "endColumns": "97,138,104",
+                        "endOffsets": "3137,3276,3381"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2943",
+                        "endColumns": "100",
+                        "endOffsets": "3039"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\c1f7e5a4d606154c3cf7afd48e41fb88\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "224",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1247",
+                        "endColumns": "224",
+                        "endOffsets": "1467"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\b4535c1f413969c05ae6c4c769ad2612\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,348,532,657,761,972,1098,1237,1363,1605,1710,1894,2027,2240,2422,2510,2599",
+                        "endColumns": "102,183,124,103,210,125,138,125,241,104,183,132,212,181,87,88,105",
+                        "endOffsets": "347,531,656,760,971,1097,1236,1362,1604,1709,1893,2026,2239,2421,2509,2598,2704"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,396,525,633,844,974,1117,1472,1714,1823,2007,2144,2357,2543,2635,2728",
+                        "endColumns": "106,183,128,107,210,129,142,129,241,108,183,136,212,185,91,92,109",
+                        "endOffsets": "207,391,520,628,839,969,1112,1242,1709,1818,2002,2139,2352,2538,2630,2723,2833"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zohaib Files\\Application\\ezay_order_tracking V. 5\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ta\\values-ta.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\c5c110cd5ffe88271556882b0ef97b11\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,348,532,657,761,972,1098,1237,1363,1605,1710,1894,2027,2240,2422,2510,2599",
+                        "endColumns": "102,183,124,103,210,125,138,125,241,104,183,132,212,181,87,88,105",
+                        "endOffsets": "347,531,656,760,971,1097,1236,1362,1604,1709,1893,2026,2239,2421,2509,2598,2704"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,396,525,633,844,974,1117,1472,1714,1823,2007,2144,2357,2543,2635,2728",
+                        "endColumns": "106,183,128,107,210,129,142,129,241,108,183,136,212,185,91,92,109",
+                        "endOffsets": "207,391,520,628,839,969,1112,1242,1709,1818,2002,2139,2352,2538,2630,2723,2833"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5841413d7668e6d94ad4677aac6b13ef\\res\\values-ta\\values-ta.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2943",
+                        "endColumns": "100",
+                        "endOffsets": "3039"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\b94a6c5e9c59b6922bb4bc2da657a19c\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "224",
+                        "endOffsets": "471"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1247",
+                        "endColumns": "224",
+                        "endOffsets": "1467"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-tagmanager-16.0.0.aar\\0167d561e939484d9f6134402796e310\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "208,302,437",
+                        "endColumns": "93,134,100",
+                        "endOffsets": "301,436,537"
+                    },
+                    "to": {
+                        "startLines": "22,23,24",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "3044,3142,3281",
+                        "endColumns": "97,138,104",
+                        "endOffsets": "3137,3276,3381"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.0.0.aar\\f1a6cf5c8c87ace12f063adf05371be2\\res\\values-ta\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2838",
+                        "endColumns": "104",
+                        "endOffsets": "2938"
+                    }
+                }
+            ]
+        }
+    ]
+}

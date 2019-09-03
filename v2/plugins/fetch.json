@@ -1,0 +1,92 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@^1.3.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-app-name": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-app-name"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_NAME": "eZay Order Tracking"
+    }
+  },
+  "cordova-plugin-battery-status": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-battery-status"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@4.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-geolocation": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-geolocation@4.0.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "phonegap-plugin-barcodescanner": {
+    "source": {
+      "type": "registry",
+      "id": "phonegap-plugin-barcodescanner@7.1.2"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-android-gpsdetect": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-android-gpsdetect@0.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-screen-orientation": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-screen-orientation@^3.0.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "es6-promise-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "es6-promise-plugin@^4.1.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-sms-receive": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-sms-receive"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-firebase": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-firebase"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

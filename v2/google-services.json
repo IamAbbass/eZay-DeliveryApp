@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "871251374867",
+    "firebase_url": "https://ezay-phone-authentication.firebaseio.com",
+    "project_id": "ezay-phone-authentication",
+    "storage_bucket": "ezay-phone-authentication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871251374867:android:5b44b4e1497a2855",
+        "android_client_info": {
+          "package_name": "com.shopmm.qr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871251374867-25oobdghrnm2qfk16eqh1dvqm3lo14rl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shopmm.qr",
+            "certificate_hash": "2a524a019630db5ee6441ee4006c84739bc00dc6"
+          }
+        },
+        {
+          "client_id": "871251374867-vlhgmkhl70ba234jvrk8gj8cp16uun44.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "871251374867-vlhgmkhl70ba234jvrk8gj8cp16uun44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTXKV-_HaXxogWOaBehAeyhwH_qYE68h8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871251374867-vlhgmkhl70ba234jvrk8gj8cp16uun44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

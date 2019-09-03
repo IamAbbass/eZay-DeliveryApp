@@ -1,0 +1,36 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-compat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-compat@^1.0.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "phonegap-plugin-barcodescanner": {
+    "source": {
+      "type": "registry",
+      "id": "phonegap-plugin-barcodescanner@7.0.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-app-name": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-app-name"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_NAME": "Shopmm QR Scanner"
+    }
+  }
+}

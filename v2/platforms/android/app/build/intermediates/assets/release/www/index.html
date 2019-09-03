@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+	<!--
+	<script src="js/firebase.js"></script>
+	-->
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+
+
+
+
+	<style>
+		.menu-btn{
+			background-color:#4885ed !important;
+			color: #fff !important;
+			text-shadow:0 0px 0 #f3f3f3 !important;
+		}
+		.delete-btn{
+			background-color:#db3236 !important;
+			color: #fff !important;
+			text-shadow:0 0px 0 #f3f3f3 !important;
+		}
+		.success-btn{
+			background-color:#3cba54 !important;
+			color: #fff !important;
+			text-shadow:0 0px 0 #f3f3f3 !important;
+		}
+		.parcel_details{
+			color: #000 !important;
+			text-shadow:0 0px 0 #f3f3f3 !important;
+		}
+		.showmsg{ display: none !important; }
+	</style>
+</head>
+<body>
+<div data-role="page" id="login">
+    <div data-role="header">
+        <h1>Login</h1>
+    </div>        
+    <div data-role="main" class="ui-content ">
+        <img style="width:100px; height:100px; display:block; margin:0 auto;" src="img/logo.png" alt="" />
+		
+        <p class="message"></p>
+        <form id="login-form" method="post">
+			<input type="number" name="number" id="login-number" placeholder="Registered Phone Number">
+            <button  style="box-shadow:0 0 10px #999" type="submit" class="ui-btn ui-icon-user ui-btn-icon-left ui-btn-corner-all" >
+            Login
+            </button>
+        </form>
+    </div>
+    <div data-role="footer">
+        <div class="text-center">
+            
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="dashboard">
+    <div data-role="header">
+        <a href="#logout_dialog" data-rel="popup" data-position-to="window" data-transition="pop" id="logout_btn" data-transition="slide" class="ui-btn ui-icon-power ui-btn-icon-left ui-btn-corner-all">Log Out</a>
+		<!-- =============== LOG OUT POPUP =============== -->
+		<div data-role="popup" id="logout_dialog" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+			<div data-role="header" data-theme="a">
+			<h1>Logout Your ID</h1>
+			</div>
+			<div role="main" class="ui-content">
+				<h3 class="ui-title">Are you sure you want to Logout Your ID?</h3>
+				<a href="#" class="logout-btn ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">YES</a>
+				<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">NO</a>
+			</div>
+		</div>
+		<!-- =============== / LOG OUT POPUP =============== -->
+		
+        <h1>My Jobs</h1>		
+		<a href="#" class="scan_pickup ui-btn ui-icon-plus ui-btn-icon-notext ui-btn-corner-all"></a>
+    </div>
+
+	<div data-role="main" class="ui-content">		
+		<h4 class="login_user_format text-center" style="margin:0 !important">Login as, <span class="display-login-name"></span></h4>
+		<p class="message gps_status scan_pickup_status"></p>
+		<hr />        
+		
+		<div class="no_job">
+			<p class="text-center"> You have no available job !</p>
+			<button class="ui-btn ui-icon-plus ui-btn-icon-top ui-btn-corner-all" onClick="scan('pickup')">Pick up</a>
+		</div>
+		
+		<div class="searching_job">
+		
+			<p class="text-center"><img src='img/load-sm.gif' /> Looking for jobs ..</p>
+		</div>		
+		
+		<div class="jobs">			
+			<form class="ui-filterable">
+				<input placeholder="Search Job" id="filterBasic-input" data-type="search">
+			</form>		
+			<ul id="parcel_list" data-role="listview" data-filter="true" data-inset="true" data-input="#filterBasic-input">
+				
+			</ul>
+		</div>
+	</div>
+
+	<div data-role="footer">
+		<div class="text-center">
+			<p class="total_job"></p>
+		</div>
+	</div>
+	
+</div>
+
+<div data-role="page" data-dialog="true" id="dialog_menu">
+  <div data-role="header">
+    <h3>Select an Option</h3>
+  </div>
+
+  <div data-role="main" class="ui-content">    
+	<ul data-role="listview">
+        <li><a class="sign_btn" href="#capture_page">Capture Signature/Name</a></li>
+        <li><a href="#parcel_detail" class="capture_photo">Add Photo Proof</a></li>
+        <li><a href="#parcel_detail" class="scan_barcode">Scan QR/Bar code</a></li>
+        <li><a href="#enter_notes">Enter Notes</a></li>
+    </ul>
+  </div>
+  <div data-role="footer" class="cancel-btn">
+        <h3><a data-icon="carat-l" style="color: #000;" class="cancel-btn">Back</a></h3>
+  </div>
+</div> 
+
+<div data-role="page" id="parcel_detail">
+    <div data-role="header">
+        <a href="#dashboard" data-direction="reverse" date-rel="back" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-corner-all"></a>
+        <h1 class="label"></h1>		
+    </div>
+    <div data-role="main" class="ui-content">
+			<p class="message parcel_details_status"></p>
+			
+			
+			<div>				
+				<p class="status" style="float: left;"></p>
+				<p class="count" style="float: right;"></p>				
+				<div style="clear:both"></div>			
+			</div>
+			
+			<h2 style="margin: 0;" class="address"></h2>
+			
+			<div>				
+				<p class="name" style="float: left;"></p>
+				<p class="label" style="float: right;"></p>				
+				<div style="clear:both"></div>			
+			</div>
+			
+			<h4>Instruction</h4>
+            <p class="notes"></p>
+			
+			
+            <div class="ui-grid-solo">
+                <div class="ui-block-a">
+                    <h4>Attempt History</h4>
+                    <ul class="history">
+                        
+						
+                    </ul>
+                </div>
+            </div>
+			
+
+        <br /><br />
+    </div>
+    <div data-role="footer" style="position: fixed; bottom: 0; width:100%">
+        <div data-role="navbar">
+            		
+			<ul>
+                <li><a href="#dialog_menu" data-icon="plus" class="menu-btn">Menu</a></li>
+                <li><a href="#failDialog" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-delete delete-btn" data-icon="delete">Fail</a>
+                    
+                    <div data-role="popup" id="failDialog" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+                        <div data-role="header" data-theme="a">
+                            <h1>Fail Confirmation</h1>
+                        </div>
+                        <div role="main" class="ui-content">
+                            <h3 class="ui-title">Delivery Failed ?</h3>
+                            <p>This action cannot be undone.</p>
+							<p class="message"></p>
+							<form id="fail">
+								<input id="fail_reason" placeholder="Enter reason here"></input>							
+								<button type="submit" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b">Yes</button>
+								<a href="#" class="back-btn ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">Back</a>							
+							</form>
+                        </div>
+                    </div>
+					
+                </li>
+                <li><a href="#SuccessDialog" data-rel="popup" data-position-to="window" data-transition="pop" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-check success-btn" data-icon="check">Success</a>
+                    
+                    <div data-role="popup" id="SuccessDialog" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+                        <div data-role="header" data-theme="a">
+                            <h1>Success Confirmation</h1>
+                        </div>
+                        <div role="main" class="ui-content">
+                            <h3 class="ui-title">Successfully Delivered ?</h3>
+                            <p>This action cannot be undone.</p>
+							<p class="message"></p>
+                            <a href="#" date-rel="back" class="submit_success ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-transition="flow">Yes</a>
+                            <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b"  data-transition="flow">Back</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div> 
+
+<div data-role="page" id="capture_page">
+    <div data-role="header">
+		<a href="#parcel_detail" data-direction="reverse" date-rel="back" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-corner-all sign-back-btn"></a>
+        <h1>Capture Signature/Name</h1>
+    </div>	
+	<canvas id="sig-canvas">
+		Canvas Not Supported!
+	</canvas>    
+    <div data-role="footer" style="position: fixed; bottom: 0; width:100%">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#cancel_dialog" data-rel="popup" data-position-to="window" data-transition="pop" data-transition="slide" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-icon="delete">Clear</a>
+					<!-- =============== Clear Signature =============== -->
+					<div data-role="popup" id="cancel_dialog" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+						<div data-role="header" data-theme="a">
+						<h1>Clear This Sign</h1>
+						</div>
+						<div role="main" class="ui-content">
+							<h3 class="ui-title">Are you sure you want to clear your signature canvas?</h3>
+							<a href="#" class="clearCanvas ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Yes</a>
+							<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+						</div>
+					</div>
+					<!-- =============== / Clear Signature =============== -->
+				</li>
+                <li><a href="#accept_dialog"  data-rel="popup" data-position-to="window" data-transition="pop" data-transition="slide"  class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-icon="check">Accept</a>
+					<!-- =============== Accept Signature =============== -->
+					<div data-role="popup" id="accept_dialog" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+						<div data-role="header" data-theme="a">
+						<h1>Accept This Sign</h1>
+						</div>
+						<div role="main" class="ui-content">
+							<p class="meassage"> </p>
+							<h3 class="ui-title">Are you sure you want to accept this signature?</h3>
+							<a href="#" class="getCanvas ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b">Yes</a>
+							<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+						</div>
+					</div>
+					<!-- =============== / Accept Signature =============== -->
+				</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="enter_notes">
+    <div data-role="header">
+		<a href="#parcel_detail" data-direction="reverse" date-rel="back" class="ui-btn ui-icon-carat-l ui-btn-icon-notext ui-btn-corner-all"></a>
+        <h1>Enter Notes</h1>
+    </div>	
+	<div data-role="main" class="ui-content">
+		<textarea id="notes" style="height:300px;" placeholder="Enter notes here"></textarea>
+	</div>
+    <div data-role="footer" style="position: fixed; bottom: 0; width:100%">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#clear_txt_dialog" data-rel="popup" data-position-to="window" data-transition="pop" data-transition="slide" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-icon="delete">Clear</a>
+					<!-- =============== Clear Text-Area =============== -->
+					<div data-role="popup" id="clear_txt_dialog" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+						<div data-role="header" data-theme="a">
+						<h1>Clearing Notes</h1>
+						</div>
+						<div role="main" class="ui-content">
+							<h3 class="ui-title">Are you sure you want to clear this notes?</h3>
+							<a href="#" class="clearNotes ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b">Yes</a>
+							<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+						</div>
+					</div>
+					<!-- =============== / Clear Text-Area =============== -->
+				</li>
+                <li><a href="#accept_txt_dialog" data-rel="popup" data-position-to="window" data-transition="pop" data-transition="slide" class="ui-btn ui-corner-all ui-shadow ui-btn-inline" data-icon="check">Accept</a>
+					<!-- =============== Accept Text-Area =============== -->
+					<div data-role="popup" id="accept_txt_dialog" data-overlay-theme="a" data-theme="a" data-dismissible="false" style="max-width:400px;">
+						<div data-role="header" data-theme="a">
+						<h1>Accepting Notes</h1>
+						</div>
+						<div role="main" class="ui-content">
+							<h3 class="ui-title">Are you sure you want to accept this notes?</h3>
+							<a href="#" class="getNotes ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b">Yes</a>
+							<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow">No</a>
+						</div>
+					</div>
+					<!-- =============== / Accept Text-Area =============== -->
+				</li>
+            </ul>
+        </div>
+    </div>
+</div>
+ 
+
+<script src="cordova.js"></script>		
+<script src="js/app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,219 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Mobile App Development\\ezay_order_tracking\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\0cd95c98d450e1ca1ce275a3a4262932\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,927,1221,1516,1688",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Mobile App Development\\ezay_order_tracking V. 6\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\0cd95c98d450e1ca1ce275a3a4262932\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,927,1221,1516,1688",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zohaib Files\\Application\\ezay_order_tracking V. 5\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5841413d7668e6d94ad4677aac6b13ef\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,927,1221,1516,1688",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4cb50bd94aec5137875074875f3a7bda\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zed Developers\\Mobile App Development\\ezay_order_tracking V. 6\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\0cd95c98d450e1ca1ce275a3a4262932\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\bae6cd4920ff1842b0697def02f94b50\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,927,1221,1516,1688",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zohaib Files\\Application\\ezay_order_tracking\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\5841413d7668e6d94ad4677aac6b13ef\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,596,722,850,1022",
+                        "endLines": "2,3,4,5,6,7,8,9,12,17",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,14,18,22,25",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,223,290,354,470,927,1221,1516,1688",
+                        "endLines": "2,3,4,5,6,7,14,18,24,29",
+                        "endColumns": "103,63,66,63,115,125,125,127,12,12",
+                        "endOffsets": "154,218,285,349,465,591,1048,1344,1683,2021"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4cb50bd94aec5137875074875f3a7bda\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "8,11,15,19",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "596,764,1053,1349",
+                        "endLines": "10,13,17,21",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "759,922,1216,1511"
+                    }
+                }
+            ]
+        }
+    ]
+}

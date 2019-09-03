@@ -1,0 +1,79 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\Mobile App Development\\ezay_order_tracking V. 6\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\0cd95c98d450e1ca1ce275a3a4262932\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zed Developers\\Mobile App Development\\ezay_order_tracking V. 6\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\0cd95c98d450e1ca1ce275a3a4262932\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\Mobile App Development\\ezay_order_tracking\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\emine\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\0cd95c98d450e1ca1ce275a3a4262932\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zohaib Files\\Application\\ezay_order_tracking V. 5\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4cb50bd94aec5137875074875f3a7bda\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Zohaib Files\\Application\\ezay_order_tracking\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ZED\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\4cb50bd94aec5137875074875f3a7bda\\res\\values-v24\\values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        }
+    ]
+}

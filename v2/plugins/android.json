@@ -1,0 +1,48 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "cordova-plugin-app-name": {
+      "APP_NAME": "eZay Order Tracking",
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "phonegap-plugin-barcodescanner": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "cordova-plugin-android-gpsdetect": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "cordova-plugin-sms-receive": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    },
+    "cordova-plugin-firebase": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.shopmm.qr"
+    }
+  }
+}

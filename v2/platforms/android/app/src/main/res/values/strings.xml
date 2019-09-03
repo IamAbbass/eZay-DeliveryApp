@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">eZay Tracking</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    
+    <string name="google_app_id">1:871251374867:android:5b44b4e1497a2855</string>
+    <string name="google_api_key">AIzaSyDTXKV-_HaXxogWOaBehAeyhwH_qYE68h8</string>
+</resources>

@@ -1,0 +1,66 @@
+{
+  "_from": "cordova-plugin-sms-receive",
+  "_id": "cordova-plugin-sms-receive@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-maKQ4sqEm9+QsD0r80quoeGwyhY=",
+  "_location": "/cordova-plugin-sms-receive",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-sms-receive",
+    "name": "cordova-plugin-sms-receive",
+    "escapedName": "cordova-plugin-sms-receive",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-sms-receive/-/cordova-plugin-sms-receive-1.0.1.tgz",
+  "_shasum": "99a290e2ca849bdf90b03d2bf34aaea1e1b0ca16",
+  "_spec": "cordova-plugin-sms-receive",
+  "_where": "D:\\Zohaib Files\\Application\\ezay_order_tracking V. 5",
+  "author": {
+    "name": "Andres Zsogon",
+    "email": "andreszs@users.noreply.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/andreszs/cordova-plugin-sms-receive/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-sms-receive",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin to receive SMS in Android",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=6.0.0"
+    },
+    {
+      "name": "cordova-android",
+      "version": ">=4"
+    }
+  ],
+  "homepage": "https://github.com/andreszs/cordova-plugin-sms-receive#readme",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "sms",
+    "receive"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-sms-receive",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreszs/cordova-plugin-sms-receive.git"
+  },
+  "version": "1.0.1"
+}
